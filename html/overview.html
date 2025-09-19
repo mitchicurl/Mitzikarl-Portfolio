@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../css/style-overview.css">
+
+  <title>Who is Mitzikarl?</title>
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+
+<body>
+  <!--Intro-->
+  <div id="intro">
+    <img src="../images/my-logo-white.png" alt="Logo" id="intro-logo">
+  </div>
+
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <div class="nav__logo">
+          <img src="../images/my-logo-white.png" alt="Logo in Header">
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              About Me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="overview.html" class="dropdown__link active-1">
+                  <i class="ri-user-3-fill"></i> Overview
+                </a>
+              </li>
+
+              <li>
+                <a href="achievements.html" class="dropdown__link">
+                  <i class="ri-award-fill"></i> Achievements
+                </a>
+              </li>
+
+              <li>
+                <a href="mus-lib.html" class="dropdown__link">
+                  <i class="ri-folder-music-fill"></i> Music Library
+                </a>
+              </li>
+
+              <!--=============== DROPDOWN SUBMENU ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-more-fill"></i> More on Me <i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="more-on-me/skills.html" class="dropdown__sublink">
+                      <i class="ri-star-fill"></i> Skills
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../pdf/cv.pdf" class="dropdown__sublink">
+                      <i class="ri-file-list-2-fill"></i> CV
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="projects/collection.html" class="dropdown__link">
+                  <i class="ri-gallery-fill"></i> Colection
+                </a>
+              </li>
+
+              <li>
+                <a href="projects/experience.html" class="dropdown__link">
+                  <i class="ri-briefcase-4-fill"></i> Experience
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--About Me Section 1-->
+  <section id="about-me-1" class="about-me-1">
+    <video src="../videos/vid-background-brown.mp4" autoplay muted loop></video>
+    <div class="about-content-1">
+      <h1>Who is Mitzikarl?</h1>
+      <h2>Mitzikarl Macayle E. Dagohoy</h2>
+      <p>He is a 19-year-old freshman student at Pamantasan ng Lungsod ng Maynila
+        (PLM), pursuing a Bachelor of Science in Computer Science.
+        With a strong interest in programming and technology, he is eager to
+        develop technical expertise and explore various fields in computing.
+        As a motivated learner, Mitzikarl is committed to building a solid foundation
+        in computer science while seeking opportunities for growth, collaboration,
+        and innovation.</p>
+    </div>
+    <div class="about-img-1">
+      <img src="../images/pfp-image-transparent.png" alt="Profile Image">
+    </div>
+  </section>
+
+  <!--About Me Section 2-->
+  <section id="about-me-2" class="about-me-2">
+    <img src="../images/background-kilim.png" alt="Kilim Background" class="kilim-bg">
+    <div class="about-content-2">
+      <h1>What are my interests in my life?</h1>
+      <p>Outside academics, Mitzikarl has a deep passion for creative expression and
+        personal growth. He enjoys <b>photography</b>, capturing unique perspectives and
+        meaningful moments through the lens. As an avid <b>music enthusiast</b> and active
+        AOTY (Album of the Year) user, he spends time listening to and reviewing albums,
+        developing a keen sense for music critique. He also loves <b>playing musical instruments</b>
+        such as the guitar, flute, and drums, which further deepens his appreciation for music.
+        <b>Gaming</b> is another interest that fuels his creativity, problem-solving, and love for
+        interactive storytelling. Additionally, Mitzikarl is drawn to <b>graphic design</b>, combining
+        artistic ideas with digital tools to create impactful visuals. Above all, he values
+        authenticity and embraces the importance of staying true to himself.
+      </p>
+    </div>
+  </section>
+
+  <!--My Interests Slideshow-->
+  <section id="my-interests" class="my-interests">
+    <img src="../images/background-bittersweet.png" alt="Bittersweet Background" class="bs-bg">
+    <h1>My Interests</h1>
+    <div class="slideshow-container">
+      <div class="mySlides active">
+        <img src="../images/video-games.jpg" alt="Playing video games">
+        <div class="slide-content">
+          <h3>Playing Video Games</h3>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="../images/coding.png" alt="Coding">
+        <div class="slide-content top-left">
+          <h3>Coding</h3>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="../images/photography.jpg" alt="Photography">
+        <div class="slide-content top-right">
+          <h3>Photography</h3>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="../images/pubmat-sample.png" alt="Graphic designs">
+        <div class="slide-content">
+          <h3>Graphic Designs</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-indicators">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  </section>
+
+  <!--Music Favs Preview-->
+  <section id="music-favs" class="music-favs">
+    <img src="../images/my-fav-albums.png" alt="Music Background" class="music-bg">
+    <div class="music-favs-caption">
+      <h3>What about my music taste?</h3>
+      <p>Check out my music library to explore my favorite songs and artists.</p>
+      <a href="mus-lib.html" class="btn">Go to Music Library</a>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="single-footer">
+        <img src="../images/my-logo-white.png" alt="Logo in Footer">
+        <p>© 2025 Mitzikarl. All rights reserved.</p>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="overview.html" class="dropdown__link active-2">About me</a></li>
+          <li><a href="../pdf/cv.pdf">Curriculum vitae</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="contact.html">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="more-on-me/skills.html">My skills</a></li>
+          <li><a href="gallery.html">My gallery</a></li>
+          <li><a href="collection.html">My projects</a></li>
+          <li><a href="mus-lib.html">My music library</a></li>
+        </ul>
+      </div>
+      <div class="social-media-single-footer">
+        <h2>Follow me:</h2>
+
+        <a href="https://www.linkedin.com/in/mitzikarl-macayle-dagohoy-278597365/" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mitchicurl" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/mitchicurls3.0/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/mitchicurl/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../js/script-overview.js"></script>
+</body>
+
+</html>

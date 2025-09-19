@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../css/style-contact.css">
+
+  <title>Contact Me</title>
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+
+<body>
+  <!--Intro-->
+  <div id="intro">
+    <img src="../images/my-logo-white.png" alt="Logo" id="intro-logo">
+  </div>
+
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <div class="nav__logo">
+          <img src="../images/my-logo-white.png" alt="Logo in Header">
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              About Me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="overview.html" class="dropdown__link">
+                  <i class="ri-user-3-fill"></i> Overview
+                </a>
+              </li>
+
+              <li>
+                <a href="achievements.html" class="dropdown__link">
+                  <i class="ri-award-fill"></i> Achievements
+                </a>
+              </li>
+
+              <li>
+                <a href="mus-lib.html" class="dropdown__link">
+                  <i class="ri-folder-music-fill"></i> Music Library
+                </a>
+              </li>
+
+              <!--=============== DROPDOWN SUBMENU ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-more-fill"></i> More on Me <i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="more-on-me/skills.html" class="dropdown__sublink">
+                      <i class="ri-star-fill"></i> Skills
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../pdf/cv.pdf" class="dropdown__sublink">
+                      <i class="ri-file-list-2-fill"></i> CV
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="projects/collection.html" class="dropdown__link">
+                  <i class="ri-gallery-fill"></i> Colection
+                </a>
+              </li>
+
+              <li>
+                <a href="projects/experience.html" class="dropdown__link">
+                  <i class="ri-briefcase-4-fill"></i> Experience
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+
+          <li><a href="contact.html" class="nav__link active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section id="contact-section" class="contact-section">
+    <div class="contact-form-1">
+      <div class="contact-info">
+        <h3 class="form-1-title">Let's get in touch</h3>
+        <p class="form-1-text">
+          For inquiries, collaborations, feedbacks, or support, please fill out the
+          form below. I’ll respond within 24–48 hours.
+        </p>
+
+        <div class="info-contact">
+          <div class="contact-information">
+            <i class="ri-map-2-fill"></i>
+            <p>B4, L6, P3, Lavender St., Celina Royale, San Nicolas III, Bacoor City, Cavite</p>
+          </div>
+          <div class="contact-information">
+            <i class="ri-mail-fill"></i>
+            <p>dagohoymitzikarl@gmail.com</p>
+          </div>
+          <div class="contact-information">
+            <i class="ri-phone-fill"></i>
+            <p>+63 995 4906759</p>
+          </div>
+        </div>
+
+        <div class="contact-social-media">
+          <p>Connect to me:</p>
+          <div class="contact-social-icons">
+            <a href="#">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-2">
+        <form id="contact-form" action="https://formspree.io/f/xandkkwr" method="POST" autocomplete="off">
+          <h3 class="form-2-title">Contact me</h3>
+          <div class="input-contact-container">
+            <input type="text" name="contact-name" class="input" placeholder=" " required />
+            <label for="">Username</label>
+          </div>
+          <div class="input-contact-container">
+            <input type="email" name="contact-email" class="input" placeholder=" " required />
+            <label for="">Email</label>
+          </div>
+          <div class="input-contact-container">
+            <input type="tel" name="contact-phone" class="input" placeholder=" " />
+            <label for="">Phone</label>
+          </div>
+          <div class="input-contact-container textarea">
+            <textarea name="contact-message" class="input" placeholder=" " required></textarea>
+            <label for="">Message</label>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="success-message" id="successMessage">
+      <h3>Message sent successfully!</h3>
+      <p>Thank you for contacting me. I'll get back to you as soon as possible.</p>
+      <button class="close-btn" onclick="closeSuccessMessage()">Close</button>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="single-footer">
+        <img src="../images/my-logo-white.png" alt="Logo in Footer">
+        <p>© 2025 Mitzikarl. All rights reserved.</p>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="overview.html">About me</a></li>
+          <li><a href="../pdf/cv.pdf">Curriculum vitae</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="contact.html" class="nav__link active">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="more-on-me/skills.html">My skills</a></li>
+          <li><a href="gallery.html">My gallery</a></li>
+          <li><a href="collection.html">My projects</a></li>
+          <li><a href="mus-lib.html">My music library</a></li>
+        </ul>
+      </div>
+      <div class="social-media-single-footer">
+        <h2>Follow me:</h2>
+
+        <a href="https://www.linkedin.com/in/mitzikarl-macayle-dagohoy-278597365/" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mitchicurl" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/mitchicurls3.0/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/mitchicurl/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../js/script-contact.js"></script>
+</body>
+
+</html>

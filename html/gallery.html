@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../css/style-gallery.css">
+
+  <title>Contact Me</title>
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+
+<body>
+  <!--Intro-->
+  <div id="intro">
+    <img src="../images/my-logo-white.png" alt="Logo" id="intro-logo">
+  </div>
+
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <div class="nav__logo">
+          <img src="../images/my-logo-white.png" alt="Logo in Header">
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              About Me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="overview.html" class="dropdown__link">
+                  <i class="ri-user-3-fill"></i> Overview
+                </a>
+              </li>
+
+              <li>
+                <a href="achievements.html" class="dropdown__link">
+                  <i class="ri-award-fill"></i> Achievements
+                </a>
+              </li>
+
+              <li>
+                <a href="mus-lib.html" class="dropdown__link">
+                  <i class="ri-folder-music-fill"></i> Music Library
+                </a>
+              </li>
+
+              <!--=============== DROPDOWN SUBMENU ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-more-fill"></i> More on Me <i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="more-on-me/skills.html" class="dropdown__sublink">
+                      <i class="ri-star-fill"></i> Skills
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../pdf/cv.pdf" class="dropdown__sublink">
+                      <i class="ri-file-list-2-fill"></i> CV
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="projects/collection.html" class="dropdown__link">
+                  <i class="ri-gallery-fill"></i> Colection
+                </a>
+              </li>
+
+              <li>
+                <a href="projects/experience.html" class="dropdown__link">
+                  <i class="ri-briefcase-4-fill"></i> Experience
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="gallery.html" class="nav__link active">Gallery</a></li>
+
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== GALLERY SECTION ===============-->
+  <section class="gallery-section">
+    <h1 class="gallery-title">My Gallery</h1>
+
+    <!--=============== VIDEO ===============-->
+    <article class="video-item">
+      <video class="picture-video" controls>
+        <source src="../videos/vid-1.mp4" type="video/mp4">
+      </video>
+      <video class="picture-video" controls>
+        <source src="../videos/vid-2.mp4" type="video/mp4">
+      </video>
+    </article>
+
+
+    <!--=============== PICTURE GRID ===============-->
+    <div class="picture-grid">
+      <div class="picture-item" data-index="0">
+        <img src="../images/image0.jpg" alt="Image 0" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="1">
+        <img src="../images/image1.jpg" alt="Image 1" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="2">
+        <img src="../images/image2.jpg" alt="Image 2" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="3">
+        <img src="../images/image3.jpg" alt="Image 3" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="4">
+        <img src="../images/image4.jpg" alt="Image 4" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="5">
+        <img src="../images/image5.jpg" alt="Image 5" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="6">
+        <img src="../images/image6.jpg" alt="Image 6" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="7">
+        <img src="../images/image7.jpg" alt="Image 7" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="8">
+        <img src="../images/image8.jpg" alt="Image 8" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="9">
+        <img src="../images/image9.jpg" alt="Image 9" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="10">
+        <img src="../images/image10.jpg" alt="Image 10" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="11">
+        <img src="../images/image11.jpg" alt="Image 11" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="12">
+        <img src="../images/image12.jpg" alt="Image 12" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="13">
+        <img src="../images/image13.jpg" alt="Image 13" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="14">
+        <img src="../images/image14.jpg" alt="Image 14" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="15">
+        <img src="../images/image15.jpg" alt="Image 15" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="16">
+        <img src="../images/image16.jpg" alt="Image 16" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="17">
+        <img src="../images/image17.jpg" alt="Image 17" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="18">
+        <img src="../images/image18.jpg" alt="Image 18" class="gallery-image">
+      </div>
+      <div class="picture-item" data-index="19">
+        <img src="../images/image19.jpg" alt="Image 19" class="gallery-image">
+      </div>
+    </div>
+  </section>
+
+  <!--=============== LIGHTBOX ===============-->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="close-btn" id="close-lightbox">&times;</button>
+      <button class="nav-btn prev-btn" id="prev-btn">❮</button>
+      <div class="lightbox-placeholder" id="lightbox-image"></div>
+      <button class="nav-btn next-btn" id="next-btn">❯</button>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="single-footer">
+        <img src="../images/my-logo-white.png" alt="Logo in Footer">
+        <p>© 2025 Mitzikarl. All rights reserved.</p>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="overview.html">About me</a></li>
+          <li><a href="../pdf/cv.pdf">Curriculum vitae</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="contact.html">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="more-on-me/skills.html">My skills</a></li>
+          <li><a href="gallery.html" class="nav__link active">My gallery</a></li>
+          <li><a href="collection.html">My projects</a></li>
+          <li><a href="mus-lib.html">My music library</a></li>
+        </ul>
+      </div>
+      <div class="social-media-single-footer">
+        <h2>Follow me:</h2>
+
+        <a href="https://www.linkedin.com/in/mitzikarl-macayle-dagohoy-278597365/" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mitchicurl" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/mitchicurls3.0/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/mitchicurl/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../js/script-gallery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../css/style-mus-lib.css">
+
+  <title>Music Room of Mitzikarl</title>
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+
+<body>
+  <!--Intro-->
+  <div id="intro">
+    <img src="../images/my-logo-white.png" alt="Logo" id="intro-logo">
+  </div>
+
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <div class="nav__logo">
+          <img src="../images/my-logo-white.png" alt="Logo in Header">
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              About Me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="overview.html" class="dropdown__link">
+                  <i class="ri-user-3-fill"></i> Overview
+                </a>
+              </li>
+
+              <li>
+                <a href="achievements.html" class="dropdown__link">
+                  <i class="ri-award-fill"></i> Achievements
+                </a>
+              </li>
+
+              <li>
+                <a href="mus-lib.html" class="dropdown__link active-1">
+                  <i class="ri-folder-music-fill"></i> Music Library
+                </a>
+              </li>
+
+              <!--=============== DROPDOWN SUBMENU ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-more-fill"></i> More on Me <i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="more-on-me/skills.html" class="dropdown__sublink">
+                      <i class="ri-star-fill"></i> Skills
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../pdf/cv.pdf" class="dropdown__sublink">
+                      <i class="ri-file-list-2-fill"></i> CV
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="projects/collection.html" class="dropdown__link">
+                  <i class="ri-gallery-fill"></i> Colection
+                </a>
+              </li>
+
+              <li>
+                <a href="projects/experience.html" class="dropdown__link">
+                  <i class="ri-briefcase-4-fill"></i> Experience
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--Music-->
+  <div class="album-section">
+    <div class="music-section">
+      <h1>🎵 My Music Universe 🎵</h1>
+      <p>Discover the soundtracks that define my world</p>
+    </div>
+
+    <div class="genre-tabs">
+      <button class="tab-button active" data-genre="all">All Genres</button>
+      <button class="tab-button" data-genre="rock">Rock</button>
+      <button class="tab-button" data-genre="pop">Pop</button>
+      <button class="tab-button" data-genre="jazz">Jazz</button>
+      <button class="tab-button" data-genre="electronic">Electronic</button>
+      <button class="tab-button" data-genre="indie">Indie</button>
+    </div>
+
+    <div class="albums-grid">
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/ok computer.jpg" alt="OK Computer Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>OK Computer — Radiohead</h3>
+          <p>A masterpiece of late-90s alternative rock</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/OK%20Computer%20Radiohead"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=OK%20Computer%20Radiohead"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=OK%20Computer%20Radiohead"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/grace.jpg" alt="Grace Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Grace — Jeff Buckley</h3>
+          <p>Heartfelt vocals and stunning arrangements</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Grace%20Jeff%20Buckley"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Grace%20Jeff%20Buckley"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Grace%20Jeff%20Buckley"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/souvlaki.jpg" alt="Souvlaki Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Souvlaki — Slowdive</h3>
+          <p>Dreamy shoegaze textures</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Souvlaki%20Slowdive"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Souvlaki%20Slowdive"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Souvlaki%20Slowdive"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/red.jpg" alt="Red Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Red — King Crimson</h3>
+          <p>A landmark in progressive rock</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Red%20King%20Crimson"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Red%20King%20Crimson"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Red%20King%20Crimson"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/faa∞.jpg" alt="F Sharp A Sharp Infinity Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>F♯ A♯ ∞ — Godspeed You! Black Emperor</h3>
+          <p>Epic post-rock soundscapes</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button"
+                href="https://open.spotify.com/search/Godspeed%20You%20Black%20Emperor%20F%20Sharp%20A%20Sharp%20Infinity"
+                target="_blank">Spotify</a>
+              <a class="stream-button"
+                href="https://music.apple.com/search?term=Godspeed%20You%20Black%20Emperor%20F%20Sharp%20A%20Sharp%20Infinity"
+                target="_blank">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/search?q=Godspeed%20You%20Black%20Emperor%20F%20Sharp%20A%20Sharp%20Infinity"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/loveless.jpg" alt="Loveless Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>loveless — my bloody valentine</h3>
+          <p>The definitive shoegaze record</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Loveless%20My%20Bloody%20Valentine"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Loveless%20My%20Bloody%20Valentine"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Loveless%20My%20Bloody%20Valentine"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="rock">
+        <div class="album-cover">
+          <img src="../images/in-rainbows.jpg" alt="In Rainbows Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>In Rainbows — Radiohead</h3>
+          <p>Warm textures and intimate songwriting</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/In%20Rainbows%20Radiohead"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=In%20Rainbows%20Radiohead"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=In%20Rainbows%20Radiohead"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="pop">
+        <div class="album-cover">
+          <img src="../images/imaginal-disk.jpg" alt="Magdalena Bay Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Imaginal Disk — Magdalena Bay</h3>
+          <p>Dreamy, futuristic pop textures</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Imaginal%20Disk%20Magdalena%20Bay"
+                target="_blank">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Imaginal%20Disk%20Magdalena%20Bay"
+                target="_blank">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Imaginal%20Disk%20Magdalena%20Bay"
+                target="_blank">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="pop">
+        <div class="album-cover">
+          <img src="../images/bloom.jpg" alt="Beach House Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Bloom — Beach House</h3>
+          <p>Dream-pop classic</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Bloom%20Beach%20House" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Bloom%20Beach%20House" target="_blank"
+                rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Bloom%20Beach%20House" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="pop">
+        <div class="album-cover">
+          <img src="../images/rumours.jpg" alt="Fleetwood Mac Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Rumours — Fleetwood Mac</h3>
+          <p>Iconic pop/rock record</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Rumours%20Fleetwood%20Mac" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Rumours%20Fleetwood%20Mac"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Rumours%20Fleetwood%20Mac"
+                target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="pop">
+        <div class="album-cover">
+          <img src="../images/hunky-dory.jpg" alt="David Bowie Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Hunky Dory — David Bowie</h3>
+          <p>Early Bowie brilliance</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Hunky%20Dory%20David%20Bowie"
+                target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Hunky%20Dory%20David%20Bowie"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Hunky%20Dory%20David%20Bowie"
+                target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="pop">
+        <div class="album-cover">
+          <img src="../images/abbey-road.jpg" alt="The Beatles Album Cover">
+        </div>
+        <div class="album-info">
+          <h3>Abbey Road — The Beatles</h3>
+          <p>Classic Beatles masterpiece</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Abbey%20Road%20The%20Beatles"
+                target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Abbey%20Road%20The%20Beatles"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Abbey%20Road%20The%20Beatles"
+                target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="jazz">
+        <div class="album-cover">
+          <img src="../images/in-a-silent-way.jpg" alt="Miles Davis Cover">
+        </div>
+        <div class="album-info">
+          <h3>In a Silent Way – Miles Davis</h3>
+          <p>A landmark in jazz fusion, atmospheric and timeless</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/album/0Hs3icc3ODill2ivA9zZlU" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/us/album/in-a-silent-way/724566748" target="_blank"
+                rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/playlist?list=OLAK5uy_nM1tZz6oFRJrWj6L2ubmcwYDNuvsw2duw" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="electronic">
+        <div class="album-cover">
+          <img src="../images/vespertine.jpg" alt="Björk Cover">
+        </div>
+        <div class="album-info">
+          <h3>Vespertine – Björk</h3>
+          <p>Intimate electronic textures with Björk’s unique artistry</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/album/0D2FYtxHCBZzG0FohffHmP" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/us/album/vespertine/1028471819" target="_blank"
+                rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/playlist?list=OLAK5uy_lqpNR9tHBWdQzjfr66VUgkOd90eEHpX5g" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="electronic">
+        <div class="album-cover">
+          <img src="../images/kid-a.jpg" alt="Radiohead Cover">
+        </div>
+        <div class="album-info">
+          <h3>Kid A – Radiohead</h3>
+          <p>Record about disorientation, anxiety, and searching for humanity in a digital age.</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/album/6J6nlVu4JMveJz0YM9zDgL" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button"
+                href="https://music.apple.com/us/album/kid-a/1097862870?uo=4&at=10l4PB&ct=albumAM" target="_blank"
+                rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/playlist?list=OLAK5uy_lDotrFl8LXo4UMq_XeVB1areFI_b8Par8" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="indie">
+        <div class="album-cover">
+          <img src="../images/ants-from-up-there.jpg" alt="Black Country, New Road Cover">
+        </div>
+        <div class="album-info">
+          <h3>Ants From Up There – Black Country, New Road</h3>
+          <p>A deeply emotional indie-rock masterpiece</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href=https://open.spotify.com/album/21xp7NdU1ajmO1CX0w2Egd target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button"
+                href=https://music.apple.com/us/album/ants-from-up-there/1586070259?uo=4&at=10l4PB&ct=albumAM
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href=https://music.youtube.com/playlist?list=OLAK5uy_nIXd09Yl0sIiYiuo71Up4P6VAImh35CkY target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="indie">
+        <div class="album-cover">
+          <img src="../images/rcm.jpg" alt="RCM Cover">
+        </div>
+        <div class="album-info">
+          <h3>Racing Mount Pleasant — Racing Mount Pleasant</h3>
+          <p>Newest indie masterpiece</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button"
+                href="https://open.spotify.com/search/Racing%20Mount%20Pleasant%20Racing%20Mount%20Pleasant"
+                target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button"
+                href="https://music.apple.com/search?term=Racing%20Mount%20Pleasant%20Racing%20Mount%20Pleasant"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/search?q=Racing%20Mount%20Pleasant%20Racing%20Mount%20Pleasant"
+                target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="indie">
+        <div class="album-cover">
+          <img src="../images/songs-about-leaving.jpg" alt="Carissa's Wierd Cover">
+        </div>
+        <div class="album-info">
+          <h3>Songs About Leaving — Carissa's Wierd</h3>
+          <p>Melancholic indie-folk</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button"
+                href="https://open.spotify.com/search/Songs%20About%20Leaving%20Carissa%27s%20Wierd" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button"
+                href="https://music.apple.com/search?term=Songs%20About%20Leaving%20Carissa%27s%20Wierd" target="_blank"
+                rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button"
+                href="https://music.youtube.com/search?q=Songs%20About%20Leaving%20Carissa%27s%20Wierd" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="indie">
+        <div class="album-cover">
+          <img src="../images/funeral.jpg" alt="Arcade Fire Cover">
+        </div>
+        <div class="album-info">
+          <h3>Funeral — Arcade Fire</h3>
+          <p>Iconic indie debut</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Funeral%20Arcade%20Fire" target="_blank"
+                rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Funeral%20Arcade%20Fire"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Funeral%20Arcade%20Fire" target="_blank"
+                rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-card" data-genre="indie">
+        <div class="album-cover">
+          <img src="../images/twin-fantasy.jpg" alt="CSR Cover">
+        </div>
+        <div class="album-info">
+          <h3>Twin Fantasy — Car Seat Headrest</h3>
+          <p>Lo-fi indie rock epic</p>
+          <div class="song-list">
+            <div class="song-item">
+              <span class="bullet">•</span>
+              <span class="open">Open on:</span>
+              <a class="stream-button" href="https://open.spotify.com/search/Twin%20Fantasy%20Car%20Seat%20Headrest"
+                target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a class="stream-button" href="https://music.apple.com/search?term=Twin%20Fantasy%20Car%20Seat%20Headrest"
+                target="_blank" rel="noopener noreferrer">Apple Music</a>
+              <a class="stream-button" href="https://music.youtube.com/search?q=Twin%20Fantasy%20Car%20Seat%20Headrest"
+                target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="favorites-section">
+    <h2>Current Favorites</h2>
+    <div class="favorite-songs">
+      <div class="favorite-song">
+        <div class="vinyl-animation"></div>
+        <div class="song-details">
+          <h1>Emily</h1>
+          <p>Racing Mount Pleasant</p>
+        </div>
+        <div>
+          <a class="stream-button" href="https://open.spotify.com/search/Emily%20Racing%20Mount%20Pleasant"
+            target="_blank">Spotify</a>
+          <a class="stream-button" href="https://music.apple.com/search?term=Emily%20Racing%20Mount%20Pleasant"
+            target="_blank">Apple</a>
+          <a class="stream-button" href="https://music.youtube.com/search?q=Emily%20Racing%20Mount%20Pleasant"
+            target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="favorite-song">
+        <div class="vinyl-animation"></div>
+        <div class="song-details">
+          <h1>Someday</h1>
+          <p>The Strokes</p>
+        </div>
+        <div>
+          <a class="stream-button" href="https://open.spotify.com/search/Someday%20The%20Strokes"
+            target="_blank">Spotify</a>
+          <a class="stream-button" href="https://music.apple.com/search?term=Someday%20The%20Strokes"
+            target="_blank">Apple</a>
+          <a class="stream-button" href="https://music.youtube.com/search?q=Someday%20The%20Strokes"
+            target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="favorite-song">
+        <div class="vinyl-animation"></div>
+        <div class="song-details">
+          <h1>Watching T.V.</h1>
+          <p>Magdalena Bay</p>
+        </div>
+        <div>
+          <a class="stream-button" href="https://open.spotify.com/search/Watching%20T.V.%20Magdalena%20Bay"
+            target="_blank">Spotify</a>
+          <a class="stream-button" href="https://music.apple.com/search?term=Watching%20T.V.%20Magdalena%20Bay"
+            target="_blank">Apple</a>
+          <a class="stream-button" href="https://music.youtube.com/search?q=Watching%20T.V.%20Magdalena%20Bay"
+            target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="favorite-song">
+        <div class="vinyl-animation"></div>
+        <div class="song-details">
+          <h1>God Only Knows</h1>
+          <p>The Beach Boys</p>
+        </div>
+        <div>
+          <a class="stream-button" href="https://open.spotify.com/search/God%20Only%20Knows%20The%20Beach%20Boys"
+            target="_blank">Spotify</a>
+          <a class="stream-button" href="https://music.apple.com/search?term=God%20Only%20Knows%20The%20Beach%20Boys"
+            target="_blank">Apple</a>
+          <a class="stream-button" href="https://music.youtube.com/search?q=God%20Only%20Knows%20The%20Beach%20Boys"
+            target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="favorite-song">
+        <div class="vinyl-animation"></div>
+        <div class="song-details">
+          <h1>Almost Crimes (Radio Kills Remix)</h1>
+          <p>Broken Social Scene</p>
+        </div>
+        <div>
+          <a class="stream-button"
+            href="https://open.spotify.com/search/Almost%20Crimes%20Radio%20Kills%20Remix%20Broken%20Social%20Scene"
+            target="_blank">Spotify</a>
+          <a class="stream-button"
+            href="https://music.apple.com/search?term=Almost%20Crimes%20Radio%20Kills%20Remix%20Broken%20Social%20Scene"
+            target="_blank">Apple</a>
+          <a class="stream-button"
+            href="https://music.youtube.com/search?q=Almost%20Crimes%20Radio%20Kills%20Remix%20Broken%20Social%20Scene"
+            target="_blank">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="single-footer">
+        <img src="../images/my-logo-white.png" alt="Logo in Footer">
+        <p>© 2025 Mitzikarl. All rights reserved.</p>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="overview.html">About me</a></li>
+          <li><a href="../pdf/cv.pdf">Curriculum vitae</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="contact.html">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="more-on-me/skills.html">My skills</a></li>
+          <li><a href="gallery.html">My gallery</a></li>
+          <li><a href="collection.html">My projects</a></li>
+          <li><a href="mus-lib.html" class="dropdown__link active-2">My music library</a></li>
+        </ul>
+      </div>
+      <div class="social-media-single-footer">
+        <h2>Follow me:</h2>
+
+        <a href="https://www.linkedin.com/in/mitzikarl-macayle-dagohoy-278597365/" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mitchicurl" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/mitchicurls3.0/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/mitchicurl/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../js/script-mus-lib.js"></script>
+</body>
+
+</html>
