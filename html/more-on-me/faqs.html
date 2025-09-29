@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../../css/style-faqs.css">
+
+  <title>FAQs</title>
+  <link rel="icon" type="image/png" href="../../images/favicon.png">
+</head>
+
+<body>
+  <!--Intro-->
+  <div id="intro">
+    <img src="../../images/my-logo-white.png" alt="Logo" id="intro-logo">
+  </div>
+
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <div class="nav__logo">
+          <img src="../../images/my-logo-white.png" alt="Logo in Header">
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../../index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              About Me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="../../html/overview.html" class="dropdown__link active-1">
+                  <i class="ri-user-3-fill"></i> Overview
+                </a>
+              </li>
+
+              <li>
+                <a href="../../html/achievements.html" class="dropdown__link">
+                  <i class="ri-award-fill"></i> Achievements
+                </a>
+              </li>
+
+              <li>
+                <a href="../../html/mus-lib.html" class="dropdown__link">
+                  <i class="ri-folder-music-fill"></i> Music Library
+                </a>
+              </li>
+
+              <!--=============== DROPDOWN SUBMENU ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-more-fill"></i> More on Me <i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="skills.html" class="dropdown__sublink">
+                      <i class="ri-star-fill"></i> Skills
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="faqs.html" class="dropdown__sublink active-1">
+                      <i class="ri-questionnaire-fill"></i> FAQs
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../../pdf/cv.pdf" class="dropdown__sublink">
+                      <i class="ri-file-list-2-fill"></i> CV
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="../projects/collection.html" class="dropdown__link">
+                  <i class="ri-gallery-fill"></i> Colection
+                </a>
+              </li>
+
+              <li>
+                <a href="../projects/experience.html" class="dropdown__link">
+                  <i class="ri-briefcase-4-fill"></i> Experience
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="../../html/gallery.html" class="nav__link">Gallery</a></li>
+
+          <li><a href="../../html/contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--FAQs Section-->
+  <div class="faqs-section">
+    <div class="faq-container">
+      <div class="faq-header">
+        <h1>Frequently Asked Questions</h1>
+        <p>Everything you need to know about myself.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="search-container">
+          <input type="text" class="search-box" placeholder="Search FAQ..." id="searchBox">
+        </div>
+
+        <div id="faqContainer">
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              What course you are taking at college?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                I am currently a first-year student pursuing a Bachelor of Science in Computer Science at the Pamantasan
+                ng Lungsod ng Maynila (PLM).
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              Why did you choose this course?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Since when I was 10 years old, I have been fascinated by technology, such as mobile devices and
+                computers.
+                I chose Computer Science because it allows me to combine my passion for problem-solving, creativity, and
+                innovation. I believe this field offers endless opportunities to make a positive impact on society
+                through technology.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              Do you join any clubs or organizations?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Yes! I had registered as multimedia junior officer in the student council of College of Information
+                Systems and
+                Technology Management (CISTM) in PLM. Currently, I am at the stage of interviewing process to be part of
+                them.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              What are your hobbies or interests outside school?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                My hobbies include playing video games, listening to music, watching movies, and photography.
+                I also enjoy coding personal projects and contributing to open-source communities in my free time.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              Do you have a sports or fitness routine?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                I am a fan of football and basketball, but I don't play them regularly. However,
+                I do try to stay active by going for walks and doing home workouts.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              What is your biggest goal as a student?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                My biggest goal as a student is to continually grow not only academically but also personally.
+                I want to develop strong critical thinking, communication, and problem-solving skills
+                that will help me succeed beyond school. I also aim to graduate with latin honors for myself and my
+                family.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              What are your future plans after graduation?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                After graduation, I want to continue learning about emerging fields like artificial intelligence, data
+                science,
+                and cybersecurity to stay updated in the tech industry. In the long term, I hope to contribute to
+                meaningful projects,
+                either by working in a leading tech company or building my own startup, where I can apply my skills to
+                make technology
+                more accessible and impactful.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in">
+          <div class="faq-question">
+            What’s something unique about you?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              One unique thing about me is my ability to quickly adapt to new environments and challenges.
+              Whether it's learning a new programming language or adjusting to a different culture, I thrive on change
+              and
+              see it as an opportunity for growth. This adaptability has helped me navigate various situations in both
+              my academic
+              and personal life effectively.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="noResults" class="no-results" style="display: none;">
+        No FAQs match your search. Try different keywords!
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="single-footer">
+        <img src="../../images/my-logo-white.png" alt="Logo in Footer">
+        <p>© 2025 Mitzikarl. All rights reserved.</p>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="../../html/overview.html">About me</a></li>
+          <li><a href="../../pdf/cv.pdf">Curriculum vitae</a></li>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../html/contact.html">Contact me</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <ul>
+          <li><a href="skills.html">My skills</a></li>
+          <li><a href="../../html/gallery.html">My gallery</a></li>
+          <li><a href="../projects/collection.html">My projects</a></li>
+          <li><a href="../../html/mus-lib.html">My music library</a></li>
+        </ul>
+      </div>
+      <div class="social-media-single-footer">
+        <h2>Follow me:</h2>
+
+        <a href="https://www.linkedin.com/in/mitzikarl-macayle-dagohoy-278597365/" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mitchicurl" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/mitchicurls3.0/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/mitchicurl/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../../js/script-faqs.js"></script>
+</body>
+
+</html>
